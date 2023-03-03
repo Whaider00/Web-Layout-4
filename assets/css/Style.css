@@ -28,6 +28,7 @@
 }
 body {
     padding-bottom: 10rem;
+    background-color: var(--bg-color);
   }
 .container {
     width: 80%;
@@ -129,4 +130,33 @@ header{
     width: 100%;
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
+}
+#social-media-section{
+    background-color: var(--white);
+    height: 115px;
+}
+#social-media-content{
+    padding: 1.2rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+#social-media-text{
+    flex-basis: 30%;
+}
+#social-media-image{
+    flex-basis: 50%;
+    padding-top: 1rem;
+}
+#social-media-text h2{
+    font-size: 1.4rem;
+    color: var(--text-color-1);
+    margin-bottom: 0.4rem;
+}
+#social-media-text p{
+    color: var(--text-color-2);
+    line-height: 1.2rem;
+}
+#horizontal-line{
+    background-color: var(--border-color);
+    height: 1px;
 }
