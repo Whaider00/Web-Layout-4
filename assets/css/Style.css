@@ -469,13 +469,42 @@ header{
 #body-right{
     flex-basis: 45%;
 }
-.form-field{
+/* .form-field{
     border-bottom: 1px solid var(--border-color);
 }
 .form-field p{
     margin-left: 0.8rem;
     margin-bottom: 0.5rem;
     margin-top: 3rem;
+} */
+#body-left input{
+    width: 90%;
+    margin-bottom: 2rem;
+    border: none;
+    border-bottom: 1px solid var(--border-color);
+    font-size: 1.1em;
+    padding: 0.5rem 1rem;
+}
+#body-left input::placeholder {
+    color: var(--border-color);
+}
+#body-left input:focus-visible {
+    outline: none;
+}
+#body-right textarea{
+    width: 90%;
+    margin-bottom: 2rem;
+    border: none;
+    border-bottom: 1px solid var(--border-color);
+    font-size: 1.1em;
+    padding: 0.5rem 1rem;
+    height: 10rem;
+}
+#body-right textarea::placeholder {
+    color: var(--border-color);
+}
+#body-right textarea:focus-visible {
+    outline: none;
 }
 #contact-us-form-footer{
     text-align: center;
@@ -488,13 +517,13 @@ header{
     border: none;
     font-size: 1rem;
 }
-#footer-items{
+footer{
     background-color: var(--black);
     text-align: center;
     padding: 1rem 0;
     color: var(--border-color);
 }
-#footer-items p{
+footer p{
     font-size: 0.8rem;
     margin-top: 0.3rem;
 }
