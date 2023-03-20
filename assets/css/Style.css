@@ -42,6 +42,14 @@ header{
     align-items: center;
     padding: 1rem 0;
 }
+#logo {
+    animation-name: moveInLeft;
+    animation-duration: 3s;
+}
+#navigation {
+    animation-name: moveInRight;
+    animation-duration: 4s;
+}
 #navigation ul{
     display: flex;
 }
@@ -648,3 +656,29 @@ footer p{
         width: 12%;
     }
 }
+@keyframes moveInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    80% {
+      transform: translateX(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+}
+@keyframes moveInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    80% {
+      transform: translateX(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+} 
