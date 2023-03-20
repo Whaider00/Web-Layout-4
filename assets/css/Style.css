@@ -629,3 +629,22 @@ footer p{
         width: 9%;
     }
 }
+@media (max-width: 580px) {
+    html {
+        font-size: 13px;
+    }
+    #header-banner {
+        height: 822px;
+    }
+    .heading-line {
+        margin: 1.5rem 15.5rem;
+        width: 12%;
+    }
+    .footer-img{
+        flex-basis: 20%;
+    }
+    #stylish-design hr{
+        margin: 1.5rem 15.5rem;
+        width: 12%;
+    }
+}
