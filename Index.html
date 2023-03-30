@@ -8,14 +8,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
     integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>The Axit Layout</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
 </head>
 <body>
    <header>
         <div class="container" id="sub-header">
-            <div id="logo">
+            <div id="logo" data-aos="zoom-in">
                 <img src="./assets/images/Logo.png" alt="AXIT Logo">     
             </div>
-            <div id="navigation">
+            <div id="navigation" data-aos="flip-down" data-aos-duration="400">
                 <ul>
                     <li>Features</li>
                     <li>About</li>
@@ -28,7 +30,7 @@
    </header>
    <section id="header-banner">
     <div id="header-sub-banner" class="container">
-        <div class="banner-text">
+        <div class="banner-text" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
             <img src="./assets/images/Logo2.png" id="banner-logo" alt="Axit Logo">
             <h2 class="common-heading">MODERN AXURE TEMPLATE <BR> FOR BEAUTIFUL PROTOTYPES</BR></h2>
             <hr class="common-line">
@@ -39,7 +41,7 @@
              </p>
              <button class="common-button">Download</button>
         </div>
-       <div class="banner-form">
+       <div class="banner-form" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
          <div id="form-heading">
             <h1>Try Your <span>FREE</span> Trial Today</h1>
          </div> 
@@ -73,7 +75,7 @@
    </section>
    <section id="main-tabs-section">
         <div id="tabs-section" class="container">
-            <div id="tab-section-first">
+            <div id="tab-section-first" data-aos="fade-right">
                 <div id="clickable-tabs-section">
                     <div id="clickable-tabs-first-item">
                         <div class="tabs-button first-button-item active-tab-button">
@@ -102,17 +104,17 @@
                         </div>
                 </div>
             </div>
-                <div id="tab-section-image">
+                <div id="tab-section-image" data-aos="fade-up" data-aos-anchor-placement="center-center">
                     <img src="./assets/images/image_right_u255.png" alt="Building Line Art">
                 </div>
         </div>
    </section>
    <section id="sub-list-main-section">
         <div id="sub-list-main" class="container">
-            <div id="sub-list-main-first">
+            <div id="sub-list-main-first" data-aos="fade-up" data-aos-anchor-placement="center-center">
                 <img src="./assets/images/image_left_sub_list_u260.png" alt="Left Image">
             </div>
-            <div id="sub-list-main-second">
+            <div id="sub-list-main-second" data-aos="fade-left">
                 <h4 class="sub-list-heading">Sub List Section</h4>
                 <hr class="sub-list-heading-line">
                 <p class="sub-list-para">
@@ -151,7 +153,7 @@
    </section>
    <section id="sub-list-main-section-2">
         <div id="sub-list-main-2" class="container">
-            <div id="sub-list-main-second">
+            <div id="sub-list-main-second" data-aos="fade-right">
                 <h4 class="sub-list-heading">Sub List Section</h4>
                 <hr class="sub-list-heading-line">
                 <p class="sub-list-para">
@@ -169,14 +171,14 @@
                     ipsa maiores incidunt neque accusamus ea amet enim?
                 </p>
             </div>
-            <div id="sub-list-main-first" class="container">
+            <div id="sub-list-main-first" class="container" data-aos="fade-up" data-aos-anchor-placement="center-center">
                 <img src="./assets/images/image_left_sub_list_u260.png" alt="Left Image">
             </div>
         </div>
    </section>
    <Section id="awesome-main-section">
         <div id="awsome-section" class="container">
-            <div id="awesome-section-title">
+            <div id="awesome-section-title" data-aos="zoom-in">
                 <h2 class="heading-title">
                     WHY THIS IS AWESOME
                 </h2>
@@ -185,8 +187,8 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
             </div>
-            <div id="awesome-section-details">
-                <div class=awesome-items>
+            <div id="awesome-section-details" >
+                <div class=awesome-items data-aos="flip-up">
                 <img src="./assets/images/blub.png" alt="Thoughtful Design">
                 <h3>Thoughtful Design</h3>
                 <p class="sub-list-para">
@@ -195,7 +197,7 @@
                     libero molestias.
                 </p>
                 </div>
-                <div class=awesome-items>
+                <div class=awesome-items data-aos="flip-up" data-aos-delay="300">
                 <img src="./assets/images/keyboard.png" alt="Well Crafted">
                 <h3>Well Crafted</h3>
                <p class="sub-list-para">
@@ -204,7 +206,7 @@
                 libero molestias.
                 </p>
                 </div>
-                <div class=awesome-items>
+                <div class=awesome-items data-aos="flip-up" data-aos-delay="600">
                 <img src="./assets/images/customize.png" alt="Easy to Customize">
                 <h3>Easy to Customize</h3>
                 <p class="sub-list-para">
@@ -218,7 +220,7 @@
    </Section>
    <section id="pricing-main-section">
         <div id="pricing-section" class="container">
-            <div id="pricing-section-title">
+            <div id="pricing-section-title" data-aos="flip-up">
                 <h2 class="heading-title">
                     PRICING OPTIONS
                 </h2>
@@ -228,7 +230,7 @@
                 </p>
             </div>
             <div id="pricing-plan-section">
-                <div class="plan-section-items">
+                <div class="plan-section-items" data-aos="fade-up">
                     <div class="plan-section-header">
                         <h3>Basic</h3>
                     </div>
@@ -257,7 +259,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="plan-section-items" id="plan-section-items-popular">
+                <div class="plan-section-items" id="plan-section-items-popular" data-aos="fade-up" data-aos-delay="600">
                     <div class="plan-section-header">
                         <h3>Professional</h3>
                     </div>
@@ -289,7 +291,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="plan-section-items">
+                <div class="plan-section-items" data-aos="fade-up" data-aos-delay="300">
                     <div class="plan-section-header">
                         <h3>Enterprise</h3>
                     </div>
@@ -323,7 +325,7 @@
    </section>
    <section id="customer-reviews-section">
         <div id="customer-reviews" class="container">
-            <div id="customer-reviews-title">
+            <div id="customer-reviews-title" data-aos="flip-up">
                 <h2 class="heading-title">
                     WHAT OUR CUSTOMERS ARE SAYING
                 </h2>
@@ -333,7 +335,7 @@
                 </p>
             </div>
             <div id="customer-reviews-description">
-                <div class="customer-reviews-items">
+                <div class="customer-reviews-items" data-aos="zoom-in-up">
                     <div class="customer-reviews-body">
                         <p>
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -352,7 +354,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="customer-reviews-items">
+                <div class="customer-reviews-items" data-aos="zoom-in-up" data-aos-delay="300">
                     <div class="customer-reviews-body">
                         <p>
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -371,7 +373,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="customer-reviews-items">
+                <div class="customer-reviews-items" data-aos="zoom-in-up" data-aos-delay="600">
                     <div class="customer-reviews-body">
                         <p>
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -394,7 +396,7 @@
         </div>
    </section>
    <section id="stylish-design-section">
-        <div id="stylish-design" class="container">
+        <div id="stylish-design" class="container" data-aos="flip-right" data-aos-duration="1500">
             <h2>
                 STYLISH AXURE DESIGN
             </h2>
@@ -408,7 +410,7 @@
    </section>
    <section id="contact-us-form-section">
         <div id="contact-us-form" class="container">
-            <div id="contact-us-form-title">
+            <div id="contact-us-form-title" data-aos="flip-up">
                 <h2 class="heading-title">
                    CONTACT US
                 </h2>
@@ -417,7 +419,7 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
             </div>
-            <div id="contact-us-form-body">
+            <div id="contact-us-form-body" data-aos="zoom-in-up">
                 <div id="body-left">
                     <input type="text" placeholder="Name">
                     <input type="text" placeholder="Email">
@@ -429,15 +431,20 @@
                     </div>
                 </div>
             </div>
-            <div id="contact-us-form-footer">
+            <div id="contact-us-form-footer" data-aos="fade-up">
                 <button type="submit">Send Message</button>
             </div>
         </div>
    </section>
-   <footer>
+   <footer data-aos="flip-right">
         <img src="./assets/images/footer-social-icons.png" alt="Social Icons">
         <p> &copy; 2015 Axure Themes</p>
         </div>
     </footer>
+    
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </html>
